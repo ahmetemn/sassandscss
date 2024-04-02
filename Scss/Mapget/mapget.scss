@@ -1,0 +1,20 @@
+$tema:(
+    "acik" : #fff,
+    "koyu" : #000,
+    "gri"  : gray
+);
+$kalinlik:(
+    "ince" : 300,
+    "normal" : 400,
+    "kalin"  : 500
+);
+
+
+.baslik{
+    
+    font-size: map-get($kalinlik , "normal" );
+}
+
+.body{
+    color: map-get($tema , "acik");
+}

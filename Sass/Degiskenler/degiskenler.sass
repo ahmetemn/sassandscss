@@ -1,0 +1,39 @@
+$renk: #000
+$renk5:E9C874
+$renk6:C0D6E8
+$boyut:400px
+$yukseklik:600
+$font1:"Poppins", sans-serif
+
+.kutu
+    background-color:$renk
+    width: $boyut
+    height:$yukseklik + px
+
+
+.kutu2
+
+    // $renk2:red => buradaki olay şu biz renk2 diyerekte alabiliriz ama 
+        //globaldaki değişkenide buradan değiştirebiliriz.
+    $renk:red
+    width: $boyut / 2 
+    color:$renk
+
+
+.kutu3
+    //globalde tanımlamış olduğumuz degiskeni değiştirdik ve bir alttaki 
+    //features da 40px olarak geldi
+    $boyut:40px !global
+    font-size:$boyut
+
+
+.kutu4
+    font-size:$boyut    
+
+
+.kurumsal h1
+    color:$renk5
+    font-family:$font1
+
+.kurumsal p
+    font-family:$font1

@@ -1,0 +1,27 @@
+.kutu {
+  background-color: #000;
+  width: 400px;
+  height: 600px;
+}
+
+.kutu2 {
+  width: 200px;
+  color: red;
+}
+
+.kutu3 {
+  font-size: 40px;
+}
+
+.kutu4 {
+  font-size: 40px;
+}
+
+.kurumsal h1 {
+  color: E9C874;
+  font-family: "Poppins", sans-serif;
+}
+
+.kurumsal p {
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=degiskenler.css.map */

@@ -1,0 +1,16 @@
+$renk: #000;
+$boyut:400px;
+$yukseklik:600;
+.kutu
+{
+    background-color:$renk;
+    width: $boyut;
+    height:$yukseklik + px
+}
+    
+
+.kutu2{
+    width: $boyut / 2 
+}
+ 
+    
